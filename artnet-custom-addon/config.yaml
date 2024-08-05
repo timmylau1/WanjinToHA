@@ -1,7 +1,7 @@
 name: "Artnet Custom Addon"
 description: "My first real add-on!"
 version: "1.1.0"
-url: "https://github.com/timmylau1/WanjinToHA.git"
+url: "https://github.com/timmylau1/WanjinToHA"
 webui: "http://192.168.41.201:8066/POSDash/ArtNetDeviceManager.html"
 slug: "artnet_custom_addon"
 init: false
