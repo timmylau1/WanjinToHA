@@ -24,4 +24,3 @@ ports:
   8066/tcp: 8066
   22/tcp: 3888
   
-image: "timmylau/artnetforha:v1"
