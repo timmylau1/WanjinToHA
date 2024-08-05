@@ -1,7 +1,6 @@
-# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: WanjinToHA
 version: "1.2.0"
-slug: example
+slug: wanjintoha
 description: WanjinToHA
 url: "https://github.com/timmylau1/WanjinToHA"
 arch:
@@ -17,10 +16,9 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
-  
 ports:
   3306/tcp: 3306
   6379/tcp: 6379
   8066/tcp: 8066
   22/tcp: 3888
-  
+image: "timmylau/artnetforha"
