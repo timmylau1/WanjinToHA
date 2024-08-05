@@ -24,5 +24,4 @@ ports:
   8066/tcp: 8066
   22/tcp: 3888
   
-#image: "ghcr.io/home-assistant/{arch}-addon-example"
 image: "timmylau/artnetforha:v1"
