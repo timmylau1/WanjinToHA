@@ -17,10 +17,11 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
+  
 ports:
   3306/tcp: 3306
   6379/tcp: 6379
   8066/tcp: 8066
   22/tcp: 3888
   
-image: "timmylau/artnetforha:v1"
+image: "ghcr.io/home-assistant/{arch}-addon-example"
