@@ -1,7 +1,7 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: WanjinToHA
 version: "1.2.0"
-slug: Wanjin
+slug: example
 description: WanjinToHA
 url: "https://github.com/timmylau1/WanjinToHA"
 arch:
