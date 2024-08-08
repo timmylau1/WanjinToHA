@@ -23,6 +23,5 @@ ports:
   22/tcp: 3888
 image: "timmylau/artnetforha"
 
-command: ["bash"]
-stdin_open: true   # 等同于 -i
-tty: true          # 等同于 -t
+
+command: ["/bin/bash", "-c", "docker run -dti --name adv -p 3888:22/tcp -p 8066:8066/tcp -p 6379:6379/tcp -p 3306:3306/tcp timmylau/artnetforha:v2 bash"]
