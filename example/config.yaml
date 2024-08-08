@@ -1,5 +1,5 @@
 name: WanjinToHA
-version: "v1"
+version: "v2"
 slug: wanjintoha
 description: WanjinToHA
 url: "https://github.com/timmylau1/WanjinToHA"
@@ -13,7 +13,7 @@ init: false
 map:
   - share:rw
 options:
-  message: "Hello world..."
+  message: "Hello Wanjin"
 schema:
   message: "str?"
 ports:
