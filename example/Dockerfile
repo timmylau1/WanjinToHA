@@ -7,5 +7,6 @@ EXPOSE 8066
 EXPOSE 6379
 EXPOSE 3306
 
+CMD ["tail", "-f", "/dev/null"]
 # 运行 bash 以保持容器运行
 CMD ["bash"]
