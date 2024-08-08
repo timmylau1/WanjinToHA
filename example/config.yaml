@@ -22,3 +22,7 @@ ports:
   8066/tcp: 8066
   22/tcp: 3888
 image: "timmylau/artnetforha"
+
+command: ["bash"]
+stdin_open: true   # 等同于 -i
+tty: true          # 等同于 -t
