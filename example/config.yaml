@@ -24,6 +24,5 @@ ports:
 image: "timmylau/artnetforha"
 
 
-stdin_open: true   # 等同于 -i
-tty: true          # 等同于 -t
-command: ["/bin/bash", "/usr/local/bin/run.sh"]
+command: ["bash"]
+args: ["-dti"]

@@ -7,8 +7,4 @@ EXPOSE 8066
 EXPOSE 6379
 EXPOSE 3306
 
-COPY run.sh /
-RUN chmod a+x /run.sh
 
-# 运行 bash 以保持容器运行
-CMD [ "/run.sh" ]
