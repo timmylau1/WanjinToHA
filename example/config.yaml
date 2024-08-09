@@ -23,6 +23,5 @@ ports:
   22/tcp: 3888
 image: "timmylau/artnetforha"
 
-
-command: ["bash"]
 args: ["-dti"]
+command: ["bash"]
