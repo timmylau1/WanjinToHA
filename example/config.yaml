@@ -1,0 +1,27 @@
+name: WanjinToHA
+version: "v2"
+slug: wanjintoha
+description: WanjinToHA
+url: "https://github.com/timmylau1/WanjinToHA"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+map:
+  - share:rw
+options:
+  message: "Hello Wanjin"
+schema:
+  message: "str?"
+ports:
+  3306/tcp: 3306
+  6379/tcp: 6379
+  8066/tcp: 8066
+  22/tcp: 3888
+image: "timmylau/artnetforha"
+
+
+command: ["bash"]
